@@ -1,2 +1,3 @@
-# goit-markup-hw-08
-FSon56 > HTML+CSS 2.0 > Модуль 8. Адаптивна верстка. Адаптивна графіка -> Домашнє завдання №8
+# WebStudio Project
+
+https://vladkrasovsky.github.io/webstudio/
