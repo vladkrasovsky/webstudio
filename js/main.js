@@ -20,7 +20,13 @@
     item.addEventListener('submit', e => {
       e.preventDefault();
 
-      new FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`));
+      const { currentTarget: form } = e;
+
+      new FormData(form).forEach((value, name) => {
+        console.log(`${name}: ${value}`);
+      });
+
+      form.reset();
     })
   );
 })();
